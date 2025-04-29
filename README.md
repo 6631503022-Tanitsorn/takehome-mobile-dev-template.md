@@ -3,7 +3,7 @@
 **รหัสนักศึกษา (Student ID):**  6631503022 
 **ชื่อแอป (App Name):**  Whispers in Bloom
 **Framework ที่ใช้ (Framework Used):** React Native
-**ลิงก์ GitHub Repository:** [ ]  
+**ลิงก์ GitHub Repository:** [https://github.com/6631503022-Tanitsorn/Whispers-in-Bloom.git]  
 **ลิงก์ไฟล์ติดตั้ง (APK/IPA):** [https://drive.google.com/file/d/1rLZ_QaRQsZDfLhUPIxDYKnFyhQjspAuk/view?usp=sharing]
 
 ---
@@ -36,7 +36,21 @@ Persona 2:
 
 ### 1.3 โครงร่างหน้าจอ / Mockup  
 **ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages**
-
+```markdown
+1. Welcome Page:
+   - Users can sign up for a new account or sign in to an existing one.
+   - The page includes form fields for email and password, and buttons for both actions.
+2. Garden Page:
+   - Users can "plant" their thoughts—these are text entries reflecting their feelings or reflections.
+   - Each thought is paired with a flower that visually represents the emotion or content of the thought.
+   - The planted thoughts and flowers are displayed in the user’s garden view.
+   - Users can delete their planted thoughts if desired.
+   - A random positive quote is shown on this page to cheer the user up.
+3. Profile Page:
+   - Users can reset their password securely.
+   - Option to log out from their account.
+   - Users can also change the theme color of the app (e.g., default, sunset, ocean, and lavender theme).
+```
 
 ### 1.4 การไหลของผู้ใช้งาน | User Flow  
 **ตัวอย่าง (Example):**
@@ -70,9 +84,9 @@ Persona 2:
 ### 2.3 ภาพหน้าจอแอป | App Screenshots  
 **แนบภาพหรือ URL (Attach images or image links):**
 ```markdown
-- ![????](dashboard.png)
-- ![Garden](schedule.png)
-- ![Profile](reminder.png)
+- ![Welcome](welcome.png)
+- ![Garden](garden.png)
+- ![Profile](profile.png)
 ```
 
 ---
@@ -125,7 +139,6 @@ Persona 2:
 - พบปัญหาในการจัดการสถานะระหว่างการปลูกความคิดและการแสดงผลในสวน
 - เรียนรู้การใช้ Context API ร่วมกับ AsyncStorage เพื่อจัดการข้อมูลและสถานะอย่างมีประสิทธิภาพ
 - หากมีเวลาเพิ่มเติม จะพัฒนาฟีเจอร์การซิงค์ข้อมูลกับ Cloud และรองรับการใช้งานบน ios
-
 ```
 ---
 
