@@ -84,24 +84,36 @@ Persona 2:
 - [ ] Release  
 
 ### 3.2 แพลตฟอร์มที่ทดสอบ | Platform Tested  
-- [ ] Android  
-- [x] iOS  
+- [x] Android  
+- [ ] iOS  
 
 ### 3.3 ไฟล์ README และวิธีติดตั้ง | README & Install Guide  
 **แนบไฟล์หรือคำอธิบายการติดตั้งแอป | Insert steps**
 ```markdown
-1. ติดตั้ง Node.js และ Watchman
-2. ติดตั้ง Expo CLI ด้วยคำสั่ง:
-   ```bash
-   npm install -g expo-cli
-3. สร้างโปรเจกต์ใหม่
-    expo init WhispersInBloom
-4. เลือก template ที่ต้องการ (เช่น blank)
-5. เข้าไปในโฟลเดอร์โปรเจกต์
+1. ติดตั้ง Node.js
+    - ดาวน์โหลด Node.js ได้ที่ [https://nodejs.org/](https://nodejs.org/)
+      ```
+2. Clone โปรเจกต์นี้ลงเครื่อง
+    ```bash
+    git clone [url โปรเจกต์ GitHub หรือ repo]
+    ```
+3. เข้าไปในโฟลเดอร์โปรเจกต์
+    ```bash
     cd WhispersInBloom
-6. เริ่มต้นเซิร์ฟเวอร์นี้
+    ```
+4. ติดตั้ง dependencies ที่ต้องใช้
+    ```bash
+    npm install
+    ```
+5. ติดตั้ง Expo CLI (ถ้ายังไม่ได้ติดตั้ง)
+    ```bash
+    npm install -g expo-cli
+    ```
+6. เริ่มต้นเซิร์ฟเวอร์เพื่อรันแอป
+    ```bash
     expo start
-
+    ```
+    - จากนั้นสแกน QR Code ด้วยแอป **Expo Go** เพื่อเปิดแอปบนมือถือ
 ```
 
 ---
